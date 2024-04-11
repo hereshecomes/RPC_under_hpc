@@ -8,10 +8,9 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 include_directories(${PROJECT_SOURCE_DIR}/example)
 include_directories(${PROJECT_SOURCE_DIR}/include)
-include_directories(${PROJECT_SOURCE_DIR}/include/moduo)
+include_directories(${PROJECT_SOURCE_DIR}/include/phoenix)
 
 link_directories(${PROJECT_SOURCE_DIR}/lib)
-link_directories(${PROJECT_SOURCE_DIR}/thirdparty)
 
 add_subdirectory(src)
 add_subdirectory(example)
